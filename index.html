@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HBR Amazon Bookstore</title>
+    <!-- Bootstrap CSS CDN -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./HBRlogo.png" width="50"
+        /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://handmadebyraine.com/"
+                target="_blank"
+                >HandmadebyRaine</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li> -->
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    
+    <!-- Hero Section -->
+    <div class="px-3 pt-5 my-4  text-center">
+      
+      <!-- <h1 class="display-5 fw-bold text-body-emphasis">Bookstore</h1> -->
+      <div class="col-lg-7 mx-auto">          
+          <h3 class="fw-normal text-muted mb-3 mt-5">Welcome to my Amazon Bookstore of my favorite crochet books!</h3>
+        </p>
+        <p class="lead mb-4"><small>
+          Please note that some links are affiliate, meaning I’ll make a small
+          commission if you make a purchase, but this is at no cost to you. As
+          an Amazon Associate I earn from qualifying purchases. Thank you for
+          your support!</small>
+        </p>
+
+                 <!-- Button trigger modal -->
+    <div class="d-flex justify-content-center" style="margin: 20">
+      <button
+        type="button"
+        class="btn btn-dark"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        About
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            
+            <p>Introducing the HandmadebyRaine Amazon Bookstore — <br /> a haven for crochet enthusiasts! 🌟 <br />
+              On this site, you'll discover an exquisite collection of crochet books, that are my favorite and are available on Amazon. Whether you're a beginner exploring the art of crochet or a seasoned expert seeking new patterns, this bookstore has something special for everyone. <br />
+              What makes HandmadebyRaine Amazon Bookstore truly unique are the standout titles authored by none other than myself. These crochet pattern books are brimming with creative designs and practical tips, showcasing my passion and expertise. <br />
+              You will find pattern books to crochet Barbie outfits, beautiful filet crochet designs, and many more unique projects, perfect for those who want to turn their crochet projects into handmade treasures. <br />
+              If you're a fan of crochet or looking to dive into this delightful craft, HandmadebyRaine Amazon Bookstore is the perfect place to start. Explore the collection today, and let your creativity flourish one stitch at a time! 🧶✨ <br />
+              Please note that some links are affiliate, meaning I’ll make a small commission if you make a purchase, but this is at no cost to you. As an Amazon Associate I earn from qualifying purchases. <br />
+              Thank you for your support!
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button
+            type="button"
+            class="btn btn-outline-success btn-lg px-4 gap-3"
+          >
+            Categories
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Secondary
+          </button>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Card Section -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://m.media-amazon.com/images/I/71h6GkeI0dL._SL1282_.jpg"
+              class="card-img-top"
+              alt="Modern Crochet Pattern Book"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Modern Crochet by DeBrosse</h5>
+              <a
+                href="https://amzn.to/4iVzqEc"
+                class="btn btn-dark"
+                target="_blank"
+                >View More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://m.media-amazon.com/images/I/91O6mibejnL._SL1500_.jpg"
+              class="card-img-top"
+              alt="Crochet Journey Pattern Book"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Crochet Journey by Mark Roseboom</h5>
+              <a
+                href="https://amzn.to/4bTvMsb"
+                class="btn btn-dark"
+                target="_blank"
+                >View More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://m.media-amazon.com/images/I/51Alb8b0TDL._SX342_SY445_.jpg"
+              class="card-img-top"
+              alt="Mosaic Crochet Pattern Book"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mosaic Crochet by Ana Morais Soares</h5>
+              <a
+                href="https://amzn.to/41QtzZX"
+                class="btn btn-dark"
+                target="_blank"
+                >View More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/Barbie outfit for every season (1410 × 2250 px) (4).png"
+              class="card-img-top"
+              alt="Barbie Outfit Crochet Pattern Book"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Barbie Outfit by Raine Eimre</h5>
+              <a
+                href="https://amzn.to/41ToCj6"
+                class="btn btn-dark"
+                target="_blank"
+                >View More</a
+              >
+            </div>            
+          </div>
+        </div>
+
+        
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/Barbie outfit for every season (1410 × 2250 px).jpg"
+              class="card-img-top"
+              alt="Barbie Outfit Crochet Pattern Book"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Barbie Dresses by Raine Eimre</h5>
+              <a
+                href="https://a.co/d/fBuQGCo"
+                class="btn btn-dark"
+                target="_blank"
+                >View More</a
+              >
+            </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="./images/Barbie outfit for every season (1410 × 2250 px) (2).png"
+          class="card-img-top"
+          alt="Barbie Outfit Crochet Pattern Book"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Barbie Beach Dresses by Raine Eimre</h5>
+          <a
+            href="https://a.co/d/hnhnFL4"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+  </div>
+</div>
+
+<hr />
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/91u1-jzt5nL._SL1500_.jpg"
+          class="card-img-top"
+          alt="Crochet Stitch Dictionary"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Crochet Stitch Dictionary by Sarah Hazell</h5>
+          <a
+            href="https://amzn.to/4hZvT71"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/51pZAuqCCyL._SX342_SY445_.jpg"
+          class="card-img-top"
+          alt="200 Crochet Stitches"
+        />
+        <div class="card-body">
+          <h5 class="card-title">200 Crochet Stitches by Tracey Todhunter</h5>
+          <a
+            href="https://amzn.to/3QU1LPj"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/91uvgjbpdGL._SY522_.jpg"
+          class="card-img-top"
+          alt="The New Crochet Stitch Dictionary"
+        />
+        <div class="card-body">
+          <h6 class="card-title">The New Crochet Stitch Dictionary by Nele Braas</h6>
+          <a
+            href="https://amzn.to/3XF7Anu"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+        <div class="col-md-4">
+      <div class="card">
+        <img
+          src="./images/Filet crochet holiday.jpg"
+          class="card-img-top"
+          alt="Filet crochet pattern book"
+        />
+        <div class="card-body">
+          <h5 class="card-title">7 Filet Crochet Patterns by Raine Eimre</h5>
+          <a
+            href="https://a.co/d/fV5pOQg"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="./images/WIP Notebook.jpg"
+          class="card-img-top"
+          alt="WIP notebook"
+        />
+        <div class="card-body">
+          <h5 class="card-title">WIP Notebook by Raine Eimre</h5>
+          <a
+            href="https://a.co/d/0Sdnyvs"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="./images/7 crochet doilies and table runners.jpg"
+          class="card-img-top"
+          alt="The New Crochet Stitch Dictionary"
+        />
+        <div class="card-body">
+          <h6 class="card-title">7 Crochet Doilies and Table Runners by Raine Eimre</h6>
+          <a
+            href="https://a.co/d/eMEVqJY"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/91rLCViTdmL._AC_UL480_FMwebp_QL65_.jpg"
+          class="card-img-top"
+          alt="Ganny Square crochet book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">A Modern Guide to Granny Squares by Celine Semaan and Leonie Morgan</h6>
+          <a
+            href="https://amzn.to/4cFgwzy"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/61sK3VWzugL._SX342_SY445_.jpg"
+          class="card-img-top"
+          alt="Granny Square sourcebook"
+        />
+        <div class="card-body">
+          <h6 class="card-title">The Ultimate Granny Square Sourcebook by Joke Vermeiren</h6>
+          <a
+            href="https://amzn.to/4crKR4m"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/810gjyvt0GL._SY425_.jpg"
+          class="card-img-top"
+          alt="Granny Square book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">The Granny Square Book by Margaret Hubert</h6>
+          <a
+            href="https://amzn.to/4ja99T6"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/81hrfoGdByL._SY522_.jpg"
+          class="card-img-top"
+          alt="Old-Fashioned Doilies To Crochet book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">Old-Fashioned Doilies To Crochet by Rita Weiss</h6>
+          <a
+            href="https://amzn.to/4ihPHCp"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/81oHPCdZEXL._SY522_.jpg"
+          class="card-img-top"
+          alt="Favorite Irish Crochet Designs book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">Favorite Irish Crochet Designs by Rita Weiss</h6>
+          <a
+            href="https://amzn.to/3XWnVnS"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/81hYsSBx0vL._SL1500_.jpg"
+          class="card-img-top"
+          alt="Masterpieces of Irish Crochet Lace book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">Masterpieces of Irish Lace by Therese de Dillmont</h6>
+          <a
+            href="https://amzn.to/44mPvyr"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/81gilmsHYAL._SY522_.jpg"
+          class="card-img-top"
+          alt="60 Crocheted Snowflakes book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">60 Crocheted Snowflakes by Barbara Christopher</h6>
+          <a
+            href="https://amzn.to/42clT5F"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/51GHb7xA1WL._SY445_SX342_.jpg"
+          class="card-img-top"
+          alt="Christmas Ornaments to Crochet book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">Christmas Ornaments by Barbara Christopher</h6>
+          <a
+            href="https://amzn.to/4ijNo1Z"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img
+          src="https://m.media-amazon.com/images/I/91SODny+hfL._SY522_.jpg"
+          class="card-img-top"
+          alt="Crochet Snowflakes Step-by-Step book"
+        />
+        <div class="card-body">
+          <h6 class="card-title">Crochet Snowflakes Step-by-Step: A Delightful Flurry of 40 Patterns for Beginners by Caitlin Sainio</h6>
+          <a
+            href="https://amzn.to/3XT6DrS"
+            class="btn btn-dark"
+            target="_blank"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+
+
+    
+
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2025 HandmadebyRaine</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+
+    <!-- <script>
+      // Adds click event listener to the send button
+      document
+        .getElementById("sendButton")
+        .addEventListener("click", function () {
+          // Gets the trimmed value of the recipient's name input field
+          const recipientName = document
+            .getElementById("recipient-name")
+            .value.trim();
+          // Gets the trimmed value of the message text input field
+          const messageText = document
+            .getElementById("message-text")
+            .value.trim();
+          // References the alert message element
+          const alertMessage = document.getElementById("alertMessage");
+
+          // Checks if both fields are filled
+          if (recipientName && messageText) {
+            // Sets alert message for success
+            alertMessage.className = "alert alert-success";
+            alertMessage.innerText = "Message sent successfully!";
+          } else {
+            // Sets alert message for error
+            alertMessage.className = "alert alert-danger";
+            alertMessage.innerText = "Please fill in all fields.";
+          }
+
+          // Removes 'd-none' class to show the alert message
+          alertMessage.classList.remove("d-none");
+        });
+    </script> -->
+  </body>
+</html>
